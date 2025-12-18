@@ -33,6 +33,8 @@ Out of scope:
 - smart contracts
 - tokenomics or incentives
 
+- **UE (Uniqueness Engine):** off-chain, consensus-critical component that canonicalizes behavior and issues attestations.
+
 ---
 
 ## Documents
