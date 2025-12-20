@@ -9,6 +9,23 @@ This repository contains the **canonical RFC-style specifications** of the PoG p
 
 ---
 
+## Shared Context and Governance
+
+This repository uses shared organizational context and governance rules
+provided by the Patternity meta repository.
+
+The following documents are authoritative and MUST be consulted
+before making changes or architectural decisions:
+
+- `.meta/AI_GUIDE.md` — AI usage rules and constraints
+- `.meta/CONTEXT.md` — organizational and project context
+- `.meta/STYLE.md` — documentation and terminology standards
+- `.meta/VERSIONING.md` — versioning and immutability rules
+
+These documents take precedence over informal discussion or chat history.
+
+---
+
 ## Status
 
 - **Protocol:** Proof-of-Game (PoG)
