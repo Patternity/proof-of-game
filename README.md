@@ -62,6 +62,7 @@ Out of scope:
 - **Specification**
   - `specs/v1/pog-v1.md`
 
+- [Whitepaper](./WHITEPAPER.md) — motivation and design rationale (non-normative)
 ---
 
 ## Design Principles
@@ -71,6 +72,17 @@ Out of scope:
 - Off-chain computation, on-chain verification
 - Behavioral uniqueness as the sole source of value
 - Forward compatibility
+
+---
+
+## Whitepaper
+
+A non-normative whitepaper explaining the motivation, design philosophy,
+and security assumptions behind Proof-of-Game:
+
+- **[Proof-of-Game Whitepaper](./WHITEPAPER.md)**
+
+The whitepaper is explanatory only and does not define protocol semantics.
 
 ---
 
