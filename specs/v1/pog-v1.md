@@ -2,7 +2,7 @@
 
 **RFC-style Specification**
 
-**Status:** Draft v1.0
+**Status:** Draft v1.0.1 (Patch Release)
 **Category:** Standards Track
 **Scope:** Behavioral consensus and mint eligibility
 **Audience:** protocol designers, SDK developers, UE implementers, node/contract developers
@@ -145,6 +145,18 @@ Time is an ordering axis, not a source of value.
 ### 6.2 Session Identity
 
 Each session is uniquely identified by its **canonicalSessionRoot**.
+
+### 6.3 Session Context and Event Association
+
+After session initialization, all Events MUST be associated with exactly one active Session.
+
+The mechanism used to bind Events to a Session (e.g., connection-bound context, explicit session identifiers, or transport-level association) is transport-specific and out of scope for this specification.
+
+However, a compliant implementation MUST ensure that:
+
+* Events from different Sessions MUST NOT be interleaved within a single evaluation context.
+* The UE MUST unambiguously determine the Session context for every received Event.
+* Session context MUST be established prior to accepting binary Event streams.
 
 ---
 
@@ -385,4 +397,3 @@ Proof-of-Game v1 defines a **consensus-grade protocol** for proving behavioral u
 > but the uniqueness of a behavioral process.**
 
 ---
-

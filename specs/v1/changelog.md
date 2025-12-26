@@ -8,6 +8,19 @@ Editorial changes that do not affect consensus semantics MAY be omitted.
 
 ---
 
+## [v1.0.1-draft] — Clarifications and Editorial Updates
+
+**Status:** Draft
+
+### Changed
+- Clarified canonicalization ordering guarantees.
+- Explicitly stated immutability of EvaluationResult semantics.
+- Improved wording in UE quorum and attestation sections.
+
+### Consensus Impact
+- None.
+
+
 ## [v1.0-draft] — Initial Specification
 
 **Status:** Draft  
